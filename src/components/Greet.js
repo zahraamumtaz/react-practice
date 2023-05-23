@@ -1,9 +1,12 @@
 import React from "react";
 
 const Greet = (props) => {
+  const { name, heroName } = props;
   return (
     <div>
-      <h1>Hello {props.name}, from Greet.js</h1>
+      <h1>
+        Hello {name}, from Greet.js a.k.a {heroName}
+      </h1>
     </div>
   );
 };

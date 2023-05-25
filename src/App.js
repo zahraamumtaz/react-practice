@@ -14,10 +14,12 @@ import Inline from "./components/Inline";
 import Form from "./components/Form";
 import FragmentDemo from "./components/FragmentDemo";
 import Table from "./components/Table";
+import PureComp from "./components/PureComponent";
 
 function App() {
   return (
     <div className="App">
+      <PureComp />
       <Table />
       <FragmentDemo />
       <Form />

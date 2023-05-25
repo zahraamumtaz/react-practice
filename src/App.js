@@ -12,10 +12,14 @@ import NameList from "./components/NameList";
 import StyleSheet from "./components/StyleSheet";
 import Inline from "./components/Inline";
 import Form from "./components/Form";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
 
 function App() {
   return (
     <div className="App">
+      <Table />
+      <FragmentDemo />
       <Form />
       <Inline />
       <StyleSheet primary={true} />
